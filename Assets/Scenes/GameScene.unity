@@ -634,6 +634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cardManager: {fileID: 1985610998}
+  _firstDrawCard: 3
 --- !u!1 &2122463031
 GameObject:
   m_ObjectHideFlags: 0

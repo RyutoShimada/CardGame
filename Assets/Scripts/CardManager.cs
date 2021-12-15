@@ -13,9 +13,14 @@ public class CardManager : MonoBehaviour
 
     public bool IsDeck { get => _isDeck; }
 
-    void Start()
+    private void Awake()
     {
         CreateCards();
+    }
+
+    void Start()
+    {
+        
     }
 
     void CreateCards()
